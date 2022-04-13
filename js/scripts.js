@@ -31,3 +31,5 @@ function numberOfOcurrencesInText(word, text) {
   });
   return wordCount;
 }
+
+// UI Logic
