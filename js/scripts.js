@@ -40,6 +40,7 @@ $(document).ready(function(){
     const passage = $("#text-passage").val();
     const word = $("#word").val();
     const wordCount = wordCounter(passage);
+    const occurrencesOfWord = numberOfOcurrencesInText(word, passage);
     $("#total-count").html(wordCount);
     $("#selected-count").html(occurrencesOfWord);
   });
